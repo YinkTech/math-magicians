@@ -6,8 +6,8 @@ React
 
 ## Live Demo
 
-[Github](https://yinktech.github.io/Coins-Marketplace/)
-[Heroku](https://yinktech.github.io/Coins-Marketplace/)
+[Github](https://yinktech.github.io/math-magicians/)
+[Heroku](https://yinktech.github.io/math-magicians/)
 
 # Getting Started with Create React App
 
@@ -50,7 +50,7 @@ You may also see any lint errors in the console.
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/YinkTech/Coins-Marketplace/issues).
+Feel free to check the [issues page](https://github.com/YinkTech/math-magicians/issues).
 
 ## Show your support
 
