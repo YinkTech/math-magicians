@@ -1,7 +1,7 @@
 import React from 'react';
-import './Logic.css';
+import './Calculator.css';
 
-class Logic extends React.Component {
+class Calculator extends React.Component {
     constructor(props) {
         super(props);
         this.state= {answer: 0};
@@ -11,7 +11,7 @@ class Logic extends React.Component {
         const { answer } = this.state;
         return(
             <div>
-                <p > {answer} </p>
+                <p> {answer} </p>
                 <div>
                     <div>
                         <button type='button' className='btnColor'>AC</button>
@@ -50,4 +50,4 @@ class Logic extends React.Component {
     }
 }
 
-export default Logic;
+export default Calculator;

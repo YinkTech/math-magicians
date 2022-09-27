@@ -1,12 +1,13 @@
 import './App.css';
-import Logic from './components/Logic.js';
+import Calculator from './components/Calculator.js';
+import Calculate from './logic/Calculate';
 
 function App() {
   return (
     <div className="App">
-      <Logic />
+      <Calculator />
     </div>
   );
-}
+};
 
 export default App;
