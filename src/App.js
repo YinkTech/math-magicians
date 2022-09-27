@@ -1,6 +1,5 @@
 import './App.css';
 import Calculator from './components/Calculator.js';
-import Calculate from './logic/Calculate';
 
 function App() {
   return (
