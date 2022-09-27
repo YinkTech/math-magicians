@@ -1,22 +1,22 @@
 import Big from "big.js";
 
-export default function Operate(numberOne, numberTwo, Operation) {
+export default function Operate(numberOne, numberTwo, operation) {
     const one = Big(numberOne);
     const two = Big(numberTwo);
-    if (Operation == "/"){
+    if (operation == "/"){
         return one.div(two).toString();
     }
-    if (Operation == "*"){
+    if (operation == "*"){
         return one.times(two).toString();
     }
-    if (Operation == "-"){
+    if (operation == "-"){
         return one.minus(two).toString();
     }
-    if (Operation == "+"){
+    if (operation == "+"){
         return one.plus(two).toString();
     }
-    if (Operation == "%"){
+    if (operation == "%"){
         return one.mod(two).toString();
     }
-    throw Error (`invalid '${Operation}'`)
+    throw Error (`invalid '${operation}'`)
 }

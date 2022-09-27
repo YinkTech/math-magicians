@@ -1,7 +1,7 @@
 import React from "react";
 import Operate from "./Operate";
 
-export default function Calculate(buttonName) {
+export default function Calculate(obj, buttonName) {
     if (buttonName == "+/-") {
         return {
             total: (-1 * 'result'),
