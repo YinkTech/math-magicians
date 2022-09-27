@@ -7,7 +7,7 @@ React
 ## Live Demo
 
 [Github](https://yinktech.github.io/math-magicians/)
-[Heroku](https://yinktech.github.io/math-magicians/)
+[Heroku](https://math-magicians-apps.herokuapp.com/)
 
 # Getting Started with Create React App
 
