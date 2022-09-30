@@ -4,12 +4,10 @@ import ButtonPanel from './ButtonPanel.js';
 
 function App() {
   return (
-  <React.Fragment>
-    <div>
+    <>
       <Display />
       <ButtonPanel />
-    </div>
-  </React.Fragment>
+    </>
   );
 }
 
