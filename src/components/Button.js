@@ -13,7 +13,7 @@ class Button extends React.Component {
 }
 
 Button.propTypes = {
-    name: PropTypes.string.isRquired
+    name: PropTypes.string
   };
 
 export default Button;
