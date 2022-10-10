@@ -1,17 +1,21 @@
 import React from 'react';
-
+import { PropTypes } from 'prop-types';
 class Display extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state= {answer: 0};
-    };
-
     render() {
-        const { answer } = this.state;
         return(
-                <p > {answer} </p> 
+            <p>
+                <span> {this.props.Result} </span>
+                <span> {this.props.Operate} </span>
+                <span> {this.props.Next} </span>
+            </p> 
         );
     };
-}
+};
+
+Display.propTypes = {
+    Result: PropTypes.number.isRequired,
+    Operate: PropTypes.string.isRequired,
+    Next: PropTypes.string.isRequired
+};
 
 export default Display;
