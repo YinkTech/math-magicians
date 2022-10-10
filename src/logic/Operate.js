@@ -4,7 +4,7 @@ export default function Operate(numberOne, numberTwo, operation) {
     const one = Big(numberOne);
     const two = Big(numberTwo);
     
-    if (operation === '/') {
+    if (operation === '÷') {
         try {
             return one.div(two).toString();
         } catch (err) {
@@ -12,7 +12,7 @@ export default function Operate(numberOne, numberTwo, operation) {
         };
     };
     
-    if (operation === "*"){
+    if (operation === "X"){
         return one.times(two).toString();
     };
     if (operation === "-"){

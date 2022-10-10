@@ -2,6 +2,7 @@ import React from 'react';
 import Display from './Display'
 import ButtonPanel from './ButtonPanel.js';
 import Calculate from '../logic/Calculate.js';
+import './button.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,9 +21,11 @@ class App extends React.Component {
   
   render() {
     return(
-      <>
+      < >
+      <div className='calBody'>
         <Display Result={this.state.total} Operate={this.state.operation} Next={this.state.next} />
         <ButtonPanel clickHandler={this.handleClick} />
+      </div>
       </>
     );
   };

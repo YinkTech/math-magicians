@@ -3,11 +3,11 @@ import { PropTypes } from 'prop-types';
 class Display extends React.Component {
     render() {
         return(
-            <p>
+            <div className='display'>
                 <span> {this.props.Result} </span>
                 <span> {this.props.Operate} </span>
                 <span> {this.props.Next} </span>
-            </p> 
+            </div> 
         );
     };
 };
