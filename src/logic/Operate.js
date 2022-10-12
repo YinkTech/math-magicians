@@ -1,6 +1,6 @@
 import Big from "big.js";
 
-export default function Operate(numberOne, numberTwo, operation) {
+const Operate = (numberOne, numberTwo, operation) => {
     const one = Big(numberOne);
     const two = Big(numberTwo);
     
@@ -26,3 +26,5 @@ export default function Operate(numberOne, numberTwo, operation) {
     };
     throw Error (`invalid '${operation}'`);
 };
+
+export default Operate;

@@ -1,5 +1,153 @@
 
 body {
   margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 3rem;
+}
+
+.nav {
+  background: #505050;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+  justify-content: space-between;
+  border-bottom: 1px solid #ff9500;
+}
+
+.nav a {
+  font-size: 30px;
+  color: #ec9d2e;
+  display: flex;
+  padding: .25rem;
+  align-items:  center;
+  text-decoration: none;
+}
+
+.links {
   padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.links a {
+  font-size: 20px;
+  color: #ff9500;
+  border-right: 1px solid #fff;
+}
+
+.links a:hover {
+  color: #fff;
+  transition: 0.5s ease-in-out;
+  background: #ff9500;
+}
+
+.links a:active {
+  color: #505050;
+}
+
+p {
+  font-size: 20px;
+}
+
+.calBody {
+  text-align: center;
+  padding: .30rem;
+  background: #1C1C1C;
+  width: fit-content;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+}
+
+.display {
+  text-align: end;
+  padding-right: 20px;
+  font-size: 40px;
+  display: block;
+}
+
+.btnName {
+  padding: 20px;
+  margin: 7px;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+  background: #D4D4D2;
+  color: #000;
+}
+
+.btnName:hover {
+  opacity: 0.8;
+}
+
+.number {
+  font-size: 20px;
+  padding-right: 23px;
+  padding-left: 23px;
+  background: #505050;
+  color: #fff;
+}
+
+.cal {
+  background: #ff9500;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: #fff;
+}
+
+.cal-sec {
+  padding-right: 27px;
+  padding-left: 27px;
+}
+
+.last {
+  font-size: 20px;
+}
+
+.zero {
+  border-radius: 100px;
+  padding-right: 95px;
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    margin: 5px;
+  }
+
+  .nav {
+    gap: 1;
+    padding: 0;
+  }
+
+  .nav a {
+    padding: 0;
+    font-size: 17px;
+    padding: 1.3px;
+  }
+
+  .links a {
+    font-size: 14px;
+
+  }
+
+  .calculator {
+    flex-direction: column;
+    align-items: center;
+  }
 }
