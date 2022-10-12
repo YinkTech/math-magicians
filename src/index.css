@@ -70,9 +70,10 @@ p {
 
 .display {
   text-align: end;
-  padding-right: 20px;
   font-size: 40px;
   display: block;
+  inline-size: 280px;
+  overflow-wrap: break-word;
 }
 
 .btnName {
