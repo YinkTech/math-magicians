@@ -4,7 +4,7 @@ import App from '../components/App'
 const Calculator = () => {
   return (
     <div className='calculator'>
-      <h3>Let’s do some math!</h3>
+      <h1>Let’s do some math!</h1>
       <App />
     </div>
   )

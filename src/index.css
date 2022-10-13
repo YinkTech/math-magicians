@@ -10,7 +10,7 @@ body {
 }
 
 .nav {
-  background: #505050;
+  background: #000;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
@@ -25,7 +25,7 @@ body {
   font-size: 30px;
   color: #ec9d2e;
   display: flex;
-  padding: .25rem;
+  padding: 1rem;
   align-items:  center;
   text-decoration: none;
 }
@@ -46,7 +46,7 @@ body {
 
 .links a:hover {
   color: #fff;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
   background: #ff9500;
 }
 
@@ -126,7 +126,7 @@ p {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 730px) {
   .container {
     margin: 5px;
   }
