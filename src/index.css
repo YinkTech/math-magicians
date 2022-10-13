@@ -34,7 +34,6 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 1rem;
   justify-content: space-around;
 }
 
@@ -142,7 +141,12 @@ p {
     padding: 1.3px;
   }
 
+  .links {
+    gap: 1rem;
+  }
+
   .links a {
+    padding: 1rem 0;
     font-size: 14px;
 
   }
