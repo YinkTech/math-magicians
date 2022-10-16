@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`If it renders correctly 1`] = `
+<div
+  className="calBody"
+>
+  <div
+    className="display"
+  >
+    <span>
+       
+      0
+       
+    </span>
+    <span>
+       
+       
+    </span>
+    <span>
+       
+       
+    </span>
+  </div>
+  <div>
+    <div>
+      <button
+        className="btnName"
+        name="AC"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        AC
+      </button>
+      <button
+        className="btnName"
+        name="+/-"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        +/-
+      </button>
+      <button
+        className="btnName"
+        name="%"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        %
+      </button>
+      <button
+        className="btnName cal"
+        name="÷"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        ÷
+      </button>
+    </div>
+    <div>
+      <button
+        className="btnName number"
+        name="7"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        7
+      </button>
+      <button
+        className="btnName number"
+        name="8"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        8
+      </button>
+      <button
+        className="btnName number"
+        name="9"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        9
+      </button>
+      <button
+        className="btnName cal cal-sec"
+        name="X"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        X
+      </button>
+    </div>
+    <div>
+      <button
+        className="btnName number"
+        name="4"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        4
+      </button>
+      <button
+        className="btnName number"
+        name="5"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        5
+      </button>
+      <button
+        className="btnName number"
+        name="6"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        6
+      </button>
+      <button
+        className="btnName cal cal-sec"
+        name="-"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        -
+      </button>
+    </div>
+    <div>
+      <button
+        className="btnName number"
+        name="1"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        1
+      </button>
+      <button
+        className="btnName number"
+        name="2"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        2
+      </button>
+      <button
+        className="btnName number"
+        name="3"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        3
+      </button>
+      <button
+        className="btnName cal"
+        name="+"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        +
+      </button>
+    </div>
+    <div>
+      <button
+        className="btnName last zero number"
+        name="0"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        0
+      </button>
+      <button
+        className="btnName last number"
+        name="."
+        onClick={[Function]}
+        type="button"
+      >
+         
+        .
+      </button>
+      <button
+        className="btnName last cal"
+        name="="
+        onClick={[Function]}
+        type="button"
+      >
+         
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
