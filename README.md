@@ -9,6 +9,10 @@ React
 [Github](https://yinktech.github.io/math-magicians/)
 [Heroku](https://math-magicians-apps.herokuapp.com/)
 
+## Calculator Page
+![screenshot](./img/screenshot.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
